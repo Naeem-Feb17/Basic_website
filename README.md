@@ -1,4 +1,4 @@
-# PixelCraft Studios - Graphic Design Company Website
+# PixelCraft Studios - Professional Graphic Design Company Website
 
 A modern, responsive website for a graphic design company that specializes in website design, digital marketing, advertisements, and social media management.
 
