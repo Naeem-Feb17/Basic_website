@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft Studios - Creative Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>PixelCraft Studios</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Creative Design Solutions for Your Brand</h1>
+            <p class="hero-subtitle">We create stunning websites, powerful digital marketing campaigns, eye-catching ads, and engaging social media content that drives results.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+                <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-graphic">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About PixelCraft Studios</h2>
+                <p>Where creativity meets strategy to build exceptional digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>We're passionate about bringing your vision to life</h3>
+                    <p>With over 8 years of experience in the design industry, PixelCraft Studios has helped hundreds of businesses establish their digital presence and grow their brands. Our team of creative professionals combines artistic expertise with strategic thinking to deliver solutions that not only look amazing but also drive real business results.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>150+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>8+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="team-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital solutions to elevate your brand</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Website Design & Development</h3>
+                    <p>Custom, responsive websites that capture your brand essence and provide exceptional user experiences across all devices.</p>
+                    <ul>
+                        <li>Custom Design</li>
+                        <li>Responsive Development</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic digital marketing campaigns that increase your online visibility and drive qualified traffic to your business.</p>
+                    <ul>
+                        <li>SEO Optimization</li>
+                        <li>Content Marketing</li>
+                        <li>Email Campaigns</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Advertisement Design</h3>
+                    <p>Eye-catching ad designs for print and digital platforms that grab attention and convert viewers into customers.</p>
+                    <ul>
+                        <li>Google Ads Design</li>
+                        <li>Facebook Ad Creatives</li>
+                        <li>Print Advertisements</li>
+                        <li>Banner Designs</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p>Engaging social media content and management that builds communities and strengthens your brand presence online.</p>
+                    <ul>
+                        <li>Content Creation</li>
+                        <li>Social Strategy</li>
+                        <li>Community Management</li>
+                        <li>Social Media Ads</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Recent projects that showcase our expertise</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="websites">Websites</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="websites">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>E-commerce Platform</h4>
+                        <p>Modern online store with custom features</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>Digital Campaign</h4>
+                        <p>Multi-platform marketing campaign</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>Brand Identity</h4>
+                        <p>Complete brand redesign and guidelines</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="websites">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>Restaurant Website</h4>
+                        <p>Elegant website with online ordering</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>Social Media Kit</h4>
+                        <p>Comprehensive social media templates</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h4>Logo Design</h4>
+                        <p>Modern logo with brand applications</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"PixelCraft Studios transformed our online presence completely. Their team created a stunning website and marketing strategy that increased our sales by 300%."</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah Johnson</h4>
+                        <span>CEO, TechStart Inc.</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Professional, creative, and results-driven. The social media campaigns they created for us generated more leads than we ever imagined possible."</p>
+                    <div class="testimonial-author">
+                        <h4>Michael Chen</h4>
+                        <span>Marketing Director, GrowthCo</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Outstanding design work and exceptional customer service. They truly understood our vision and brought it to life better than we could have imagined."</p>
+                    <div class="testimonial-author">
+                        <h4>Emily Davis</h4>
+                        <span>Founder, Creative Spaces</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Create Something Amazing Together</h2>
+                <p>Ready to take your brand to the next level? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Design Street<br>Creative District, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@pixelcraftstudios.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="website">Website Design</option>
+                            <option value="marketing">Digital Marketing</option>
+                            <option value="ads">Advertisement Design</option>
+                            <option value="social">Social Media Management</option>
+                            <option value="branding">Branding & Identity</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PixelCraft Studios</h3>
+                    <p>Creating digital experiences that inspire, engage, and convert. Your success is our passion.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Website Design</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">Advertisement Design</a></li>
+                        <li><a href="#services">Social Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PixelCraft Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
